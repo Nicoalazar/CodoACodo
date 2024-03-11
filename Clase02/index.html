@@ -1,0 +1,47 @@
+<!-- 
+En este práctico vamos a comenzar a desarrollar un sitio web
+En esta clase vamos a estructurar un menú valiendonos de listas y etiquetas
+semánticas correspondientes
+Vamos a establecer rutas para conectar distintas páginas 
+1- Diseñamos la barra de navegación
+2- vinculamos la seccion API Movie con la página con referencias absolutas
+3- Creamos la página register.html 
+4- Vinculamos el menú con la pagina register.html con referencias relativas
+5- Generamos un enlace interno
+6- Generamos una descarga de archivo
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaC Movies, peliculas y series online</title>
+</head>
+<body>
+   <!--Diseño de la cabecera de la pagina  -->
+   <header>
+    <!-- Barra de nagevacion -->
+    <nav>
+        <!-- Espacio para el logo -->
+        <h1> 🎞️ CAC - Movies</h1>
+        <ul type="square">
+            <li>Tendencias</li>
+            <li><a href="./register.html" title="Haz click aquí para registarte">Registrarse</a></li>
+            <li><a href="https://developer.themoviedb.org/docs" target="_blank" title="Haz click aquí para ir a la API">API Movie</a></li>
+            <li>Iniciar Sesión</li>
+        </ul>
+        <ol type="I"> 
+            <li>Tendencias</li>
+            <li>Registrarse</li>
+            <li>API Movie</li>
+            <li>Iniciar Sesión</li>
+        </ol>
+    </nav>
+   </header>
+<a href="register.html" download="nombre_personalizado.html">Descarga del archivo</a>
+<br>
+<br>
+<a href="">Volver a la HOME</a>
+
+</body>
+</html>
