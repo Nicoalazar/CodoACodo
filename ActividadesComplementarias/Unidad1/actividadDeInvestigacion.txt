@@ -1,0 +1,34 @@
+Actividad de investigación
+
+Introducción
+
+1. ¿Por qué no utilizamos Microsoft Word para escribir el código de una página web?
+Microsoft Word no es adecuado para escribir código de páginas web porque no es un editor de texto plano diseñado para trabajar con lenguajes de marcado como HTML, estilos como CSS y scripts como JavaScript. Word tiende a agregar formatos propietarios y caracteres no deseados que pueden interferir con la interpretación del código por parte del navegador web.
+
+2. ¿Cuál es la diferencia entre Front-End, Back-End y FullStack?
+-Front-End se refiere a la parte de una aplicación web que los usuarios ven y con la que interactúan directamente. Incluye HTML, CSS y JavaScript, y se ejecuta en el navegador web del usuario.
+-Back-End se refiere a la parte de una aplicación web que maneja la lógica de negocio, la interacción con la base de datos y otras funciones que no son visibles para el usuario. Se ejecuta en el servidor.
+-FullStack se refiere a la capacidad de trabajar tanto en el Front-End como en el Back-End de una aplicación web. Un desarrollador FullStack tiene conocimientos tanto de tecnologías Front-End como de tecnologías Back-End.
+
+Internet
+
+1. ¿Qué otros protocolos además del TCP/IP existen?
+Además del TCP/IP, existen otros protocolos de red como UDP (User Datagram Protocol), HTTP (Hypertext Transfer Protocol), FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol), entre otros
+
+2. ¿El envío de un email puede considerarse un uso de internet?
+Sí, el envío de un email se realiza a través de Internet utilizando protocolos como SMTP (Simple Mail Transfer Protocol) para enviar el correo electrónico desde el remitente al servidor de correo electrónico del destinatario.
+
+3. ¿Qué diferencia hay entre consultar mis mails por la web de gmail.com a consultarlos
+desde la aplicación de celular? ¿Se utilizan los mismos protocolos?
+La principal diferencia radica en la forma en que se accede al correo electrónico. Consultar los correos electrónicos a través de la web de Gmail implica utilizar un navegador web en una computadora o dispositivo móvil para acceder a la interfaz web de Gmail, mientras que la aplicación de Gmail en un dispositivo móvil proporciona una experiencia más optimizada y adaptada específicamente para dispositivos móviles. Ambas formas pueden utilizar los mismos protocolos subyacentes como IMAP (Internet Message Access Protocol) o POP3 (Post Office Protocol) para acceder a los correos electrónicos, pero la aplicación móvil puede ofrecer características adicionales y una experiencia de usuario más fluida.
+
+HTML
+
+1. ¿Hay más de una forma de cambiar el color de un texto?
+Sí, hay varias formas de cambiar el color de un texto en HTML. Puedes utilizar la propiedad CSS color en línea o mediante una regla CSS en la sección <style> o en un archivo externo CSS.
+
+2. ¿Puedo centrar un texto en forma vertical en una página web?
+Sí, puedes centrar un texto verticalmente en una página web utilizando CSS. Puedes aplicar la propiedad line-height al elemento de texto con un valor igual a la altura del contenedor para lograr un centrado vertical.
+
+3. ¿Qué otras secciones además de Header y Body existen en una página web?
+Además de <header> y <body>, existen otras secciones en una página web, como <footer>, <nav>, <section>, <article>, <aside>, <main>, <div>, entre otras. Estas etiquetas se utilizan para estructurar y organizar el contenido de la página web de manera semántica.
