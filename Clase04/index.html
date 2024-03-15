@@ -1,0 +1,112 @@
+<!-- 
+CLASE 4
+En el siguiente práctico desarrollaremos
+0- Terminamos de agregar un div con h4 a cada elemento de las tablas con el titulo y su class
+1- Cargamos el footer con 3 enlaces
+2- Completamos top-rated con sus contenedores div
+3- Diseñamos el form de busquedas en la seccion search
+4- Completaremos la página register.html con un form
+5- Trabajaremos en detail-movie.html CORRGIMOS LA NAVBAR QUITANDO TENDENCIAS y la direccion de CAC-MOVIES a la HOME
+        * incrustaremos un elemento multimedia con la etiqueta iframe y exploraremos las distintas opciones
+        * Utilizaremos tablas para diseñar parte de la pagina detail
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaC - Movies, peliculas y series online</title>
+<!-- Link de favicon, se carga sola: -->
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <!-- Zona de script -->
+    <script src="https://kit.fontawesome.com/fa04600604.js" crossorigin="anonymous"></script>
+</head>
+<body>
+       <!--Diseño de la cabecera de la pagina  -->
+   <header>
+    <!-- Barra de nagevacion -->
+    <nav>
+        <!-- Espacio para el logo -->
+        <a href="./index.html"> <i class="fa-solid fa-film"></i> CAC - Movies</a>
+        <ul type="square">
+            <li><a href="#popular">Tendencias</a></li>
+            <li><a href="./templates/register.html" title="Haz click aquí para registarte">Registrarse</a></li>
+            <li><a href="https://developer.themoviedb.org/docs" target="_blank" title="Haz click aquí para ir a la API">API Movie</a></li>
+            <li><a href="#">Iniciar Sesión</a></li>
+        </ul>
+    </nav>
+   </header>
+<!-- Seccion principal del index -->
+<main>
+    <!-- Portada -->
+    <section id="banner">
+        <div>
+            <h1>Peliculas y series ilimitadas en un solo lugar</h1>
+            <h2>Disfruta donde quieras, cancelá en cualquier momento</h2>
+            <a href="./templates/register.html">Registarte</a>
+        </div>
+    </section>
+    <!-- Busqueda -->
+    <section id="search">
+        <h3>¿Que estas buscando para ver?</h3>
+        <form action="" method="get">
+            <label>Nombre: </label><input type="text" placeholder="Buscar..." class="input-buscador">
+            <input type="submit" value="Buscar" class="boton-buscador">
+        </form>
+    </section>
+    <!-- Seccion de tendencias -->
+    <section id="popular">
+        <div>
+            <h3>Las tendencias de hoy</h3>
+            <div id="list-popular">
+                <!-- Tabla    -->
+                <table>
+                    <!-- Primera fila -->
+                    <tr>
+                        <td><a href="#"><div class="movie"><img src="https://picsum.photos/200" alt="Imagen random" title="Haz click aquí para mayor info"></div></a><div class="movie-title"><h4>Titulo de la pelicula</h4></div></td>
+                        <td><a href="#"><div class="movie"><img src="https://picsum.photos/201" alt="Imagen random" title="Haz click aquí para mayor info"></div></a><div class="movie-title"><h4>Titulo de la pelicula</h4></div></td>
+                        <td><a href="#"><div class="movie"><img src="https://picsum.photos/202" alt="Imagen random" title="Haz click aquí para mayor info"></div></a><div class="movie-title"><h4>Titulo de la pelicula</h4></div></td>
+                        <td><a href="#"><div class="movie"><img src="https://picsum.photos/203" alt="Imagen random" title="Haz click aquí para mayor info"></div></a><div class="movie-title"><h4>Titulo de la pelicula</h4></div></td>
+                        <td><a href="#"><div class="movie"><img src="https://picsum.photos/204" alt="Imagen random" title="Haz click aquí para mayor info"></div></a><div class="movie-title"><h4>Titulo de la pelicula</h4></div></td>
+                        <td><a href="#"><div class="movie"><img src="https://picsum.photos/205" alt="Imagen random" title="Haz click aquí para masyorinfo"></div></a><div class="movie-title"><h4>Titulo de la pelicula</h4></div></td>
+                    </tr>
+                    <!-- Segunda Fila -->
+                    <tr>
+                        <td><a href="#"><div class="movie"><img src="https://picsum.photos/206" alt="Imagen random" title="Haz click aquí para mayor info"></div></a><div class="movie-title"><h4>Titulo de la pelicula</h4></div></td>
+                        <td><a href="#"><div class="movie"><img src="https://picsum.photos/207" alt="Imagen random" title="Haz click aquí para mayor info"></div></a><div class="movie-title"><h4>Titulo de la pelicula</h4></div></td>
+                        <td><a href="#"><div class="movie"><img src="https://picsum.photos/208" alt="Imagen random" title="Haz click aquí para mayor info"></div></a><div class="movie-title"><h4>Titulo de la pelicula</h4></div></td>
+                        <td><a href="#"><div class="movie"><img src="https://picsum.photos/209" alt="Imagen random" title="Haz click aquí para mayor info"></div></a><div class="movie-title"><h4>Titulo de la pelicula</h4></div></td>
+                        <td><a href="#"><div class="movie"><img src="https://picsum.photos/210" alt="Imagen random" title="Haz click aquí para mayor info"></div></a><div class="movie-title"><h4>Titulo de la pelicula</h4></div></td>
+                        <td><a href="#"><div class="movie"><img src="https://picsum.photos/211" alt="Imagen random" title="Haz click aquí para mayor info"></div></a><div class="movie-title"><h4>Titulo de la pelicula</h4></div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- seccion mas aclamadas -->
+    <section id="top-rated">
+        <h3>Las mas aclamadas</h3>
+        <!-- seccion de carrusel -->
+        <div id="list-top-rated">
+            <div class="movie-item"><a href="#"><img src="https://picsum.photos/212" alt="Imagen random"></a></div>
+            <div class="movie-item"><a href="#"><img src="https://picsum.photos/213" alt="Imagen random"></a></div>
+            <div class="movie-item"><a href="#"><img src="https://picsum.photos/214" alt="Imagen random"></a></div>
+            <div class="movie-item"><a href="#"><img src="https://picsum.photos/215" alt="Imagen random"></a></div>
+            <div class="movie-item"><a href="#"><img src="https://picsum.photos/216" alt="Imagen random"></a></div>
+            <div class="movie-item"><a href="#"><img src="https://picsum.photos/217" alt="Imagen random"></a></div>
+            <div class="movie-item"><a href="#"><img src="https://picsum.photos/218" alt="Imagen random"></a></div>
+            <div class="movie-item"><a href="#"><img src="https://picsum.photos/219" alt="Imagen random"></a></div>
+            <div class="movie-item"><a href="#"><img src="https://picsum.photos/220" alt="Imagen random"></a></div>
+            <div class="movie-item"><a href="#"><img src="https://picsum.photos/221" alt="Imagen random"></a></div>
+        </div>
+    </section>
+</main>
+<!-- Zona pie de pagina -->
+<footer>
+    <a href="./templates/register.html" download="nombre_personalizado.html">Descargar un archivo</a>
+    <a href="#">Ayuda</a>
+    <a href="#">Administrador de peliculas</a>
+    <a href="#">Terminos y condiciones</a>
+</footer>
+</body>
+</html>
