@@ -1,0 +1,21 @@
+Para investigar
+
+1- Crea un archivo HTML que contenga una tabla e investigá: ¿Cómo podrías insertar un video de 
+YouTube en una celda de la tabla?
+
+<h1>Tabla con Video de YouTube</h1>
+    <table border="1">
+        <tr>
+            <td>Video de YouTube</td>
+        </tr>
+        <tr>
+            <td>
+                <!-- Inserta el video de YouTube aquí -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_AQUI" frameborder="0" allowfullscreen></iframe>
+            </td>
+        </tr>
+    </table>
+
+Para insertar un video de YouTube en una celda de la tabla, puedes utilizar un elemento <iframe> que enlace al video de YouTube. Asegúrate de reemplazar "VIDEO_ID_AQUI" con el ID único del video de YouTube que deseas insertar. Puedes obtener este ID desde la URL del video de YouTube.
+
+El código HTML anterior crea una tabla con una sola celda que contiene el video de YouTube incrustado. Puedes ajustar el tamaño del video cambiando los valores de width y height en el elemento <iframe>. Además, puedes personalizar el borde de la tabla y el diseño según tus necesidades.    
