@@ -1,12 +1,21 @@
-nav{
+header{
     background-color: orange;
+    padding: 5px;
 }
 footer{
     background-color: orange;
+    padding: 5px;    
 }
 h1{
-    background-color: orange;
+    text-align: center;    
 }
 map{
     size: 20px;
+}
+a{
+    background-color: grey;
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
 }
