@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fa04600604.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
@@ -20,10 +22,11 @@
     </header>
     <h1>Formulario de registro</h1>
     <form action="show_data.html" target="_blank">
-        <label>Nombre: </label><input type="text" name="Nombre" required><br><br>
-        <label>Apellido: </label><input type="text" name="Apellido" required><br><br>
-        <label>Direccion: </label><input type="text" name="Direccion" required><br><br>
-        <label>Ciudad: </label><input type="text" name="Ciudad" required><br><br>
+        <label>Nombre: </label><input type="text" name="Nombre" required>
+        <label>Apellido: </label><input type="text" name="Apellido" required><br>
+        <p>Direccion:</p>
+        <label>Calle: </label><input type="text" name="Direccion" required>
+        <label>Ciudad: </label><input type="text" name="Ciudad" required>
         <label>Codigo postal: </label><input type="number" name="Codigo postal" required><br><br>
         <label>Fecha de Nacimiento (dd/mm/aaaa)</label><input type="date" name="Fecha de Nacimiento" required><br><br>
         <label>Genero: </label>
@@ -32,13 +35,16 @@
             <input type="radio"name="gender" value="Otro">Otro</input>
         <br><br>
         <label>Estudios maximos completos: </label>
-        <input type="checkbox" name="estudio" value="primario">Primario
-        <input type="checkbox" name="estudio" value="secundario">Secundario
-        <input type="checkbox" name="estudio" value="tercieario">Tercieario
-        <input type="checkbox" name="estudio" value="universitario">Universitario
-        <input type="checkbox" name="estudio" value="otro">Otro <br><br>
-        
-      
+        <select>
+            <option value="">Primario</option>
+            <option value="">Secundario</option>
+            <option value="">Terciario</option>
+            <option value="">Universitario</option>
+            <option value="">Otro</option>
+        </select><br><br>
+        <label>Comentarios:</label><br>
+        <textarea id="coment"  cols="30" rows="5"></textarea><br><br>
+
         <button type="submit">Enviar</button>
         <p>Si usted hace click en el boton "Enviar", la información será enviada a la pagina "show_data.html"</p>
     </form>
@@ -46,6 +52,9 @@
         <br>
         <p>Derechos reservados @2024</p>
         <br>
+        <i class="fa-regular fa-user"></i>&nbsp;
+        <i class="fa-regular fa-envelope"></i>&nbsp;
+        <i class="fa-solid fa-users"></i>&nbsp;
     </footer>
 </body>
 </html>

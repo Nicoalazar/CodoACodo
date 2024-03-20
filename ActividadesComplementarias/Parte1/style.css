@@ -4,7 +4,9 @@ header{
 }
 footer{
     background-color: orange;
-    padding: 5px;    
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;   
 }
 h1{
     text-align: center;    
@@ -18,4 +20,7 @@ a{
     text-decoration: none;
     padding: 5px;
     border-radius: 5px;
+}
+#coment{
+    resize: none;
 }
